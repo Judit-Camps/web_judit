@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 83vh;
+}
+
+#title {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+#about {
+    text-align: center;
+    padding: 2%;
+}
+
+#footer {
+    margin-top: auto;
+    min-height: 50px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+}
+
+#footer.a {
+    padding: 10rem;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 3s;
+}
+
+
+.show {
+    opacity: 1;
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
