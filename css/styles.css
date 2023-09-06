@@ -6,6 +6,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+#language-select{
+    padding-top: 10px;
+}
+
 section {
     display: grid;
     place-items: center;
@@ -143,6 +147,9 @@ i {
 .hidden {
     opacity: 0;
     transition: all 3s;
+}
+.copyright {
+    font-size: x-small;
 }
 
 
