@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
+    background-color: rgb(229, 216, 174);
 }
 
 header {
@@ -12,16 +13,12 @@ header {
     display: flex;
     height: 40px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     box-shadow: 0 0 4px 0 gray;
 }
-
-.header-elements {
-    display: flex;
-}
-
-.nav-up {
-    top: -40px;
+nav{
+    z-index: 2;
+    background-color: aliceblue;
 }
 
 .lang-option {
@@ -114,6 +111,12 @@ section {
 
 
 /* Highlight section */
+#highlights-sec {
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 0 4px 0 gray;
+}
+
 #highlights h1 {
     text-align: center;
 }
@@ -141,13 +144,16 @@ section {
 /* Footer section */
 #footer {
     min-height: 50px;
-    width: 100%;
+    width: 25%;
     margin-bottom: 0;
     text-align: center;
     background-color: gainsboro;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
+    margin: auto;
+    z-index: 1;
 }
+
 
 .foot-link {
     padding: 1rem;
