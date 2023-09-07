@@ -21,3 +21,18 @@ if (history.scrollRestoration) {
 }
 
 // Hide header when scrolling down
+const nav = document.querySelector("header");
+var lastScrollPos = 0;
+
+window.addEventListener("scroll", () => {
+    var scrollTop = window.scrollY;
+    if (scrollTop > lastScrollPos) {
+        nav.style.transition = "all .4s ease";
+        nav.style.transform = "translateY(-100%)";
+    } else {
+        nav.style.transition = "all .6s ease";
+        nav.style.transform = "translateY(0)";
+    }
+
+    lastScrollPos = scrollTop;
+})
