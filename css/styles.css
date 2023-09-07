@@ -16,6 +16,9 @@ header {
     z-index: 2;
     height: 45px;
     margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    transition: .5s;
 }
 
 header .home-logo {
@@ -25,8 +28,13 @@ header nav {
     padding: 1.5rem;
     justify-content: space-between;
 }
-nav a{
+header nav a{
     padding-left: 10px;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: blue;
 }
 
 /* header {
@@ -56,16 +64,19 @@ section {
 }
 
 #title h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+    padding-bottom: 20px;
 }
 
 .index {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .index a {
     color: grey;
+    font-size: large;
 }
 
 .index a:hover {
