@@ -1,5 +1,6 @@
 // Javascript
 
+// Make elements appear when scrollint
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -7,7 +8,6 @@ const observer = new IntersectionObserver((entries) => {
         } 
     });
 });
-
 
 const hiddenElement = document.querySelectorAll(".hidden")
 hiddenElement.forEach((el) => observer.observe(el));
@@ -20,4 +20,4 @@ if (history.scrollRestoration) {
     }
 }
 
-
+// Hide header when scrolling down
