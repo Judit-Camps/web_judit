@@ -6,8 +6,31 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-#language-select{
+header {
+    background-color: gainsboro;
+    position: fixed;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0 4px 0 gray;
+}
+
+.header-elements {
+    display: flex;
+}
+
+.nav-up {
+    top: -40px;
+}
+
+.lang-option {
     padding-top: 10px;
+    display: flex;
+}
+
+.lang-option p {
+    padding-left: 2rem;
 }
 
 section {
@@ -72,7 +95,7 @@ section {
     padding: 2%;
 }
 
-.text {
+.description {
     text-align: justify;
 }
 
@@ -91,7 +114,7 @@ section {
 
 
 /* Highlight section */
-#highlights h1{
+#highlights h1 {
     text-align: center;
 }
 
@@ -148,6 +171,7 @@ i {
     opacity: 0;
     transition: all 3s;
 }
+
 .copyright {
     font-size: x-small;
 }
