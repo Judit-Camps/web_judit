@@ -160,6 +160,10 @@ section {
     margin-bottom: 2px;
 }
 
+.l {
+    font-weight: 400 ;
+}
+
 .cv {
     text-align: center;
 }
