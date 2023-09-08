@@ -4,12 +4,13 @@ body {
     flex-direction: column;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
-    background-image: url("../images/background.png");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
+    background-position: center;
 }
 
 header {
-    background-color: #F1E3C0;
+    background-color: #70b0b6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,11 +31,12 @@ header nav {
 }
 header nav a{
     padding-left: 10px;
+    color: aliceblue;
 }
 
 header nav a:hover,
 header nav a.active {
-    color: blue;
+    color: black;
 }
 
 /* header {
@@ -97,7 +99,7 @@ section {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgb(182, 233, 228);
+    background-color: #70b0b6;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
