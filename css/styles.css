@@ -7,6 +7,7 @@ body {
     background-image: url("../images/background2.png");
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
 }
 
 header {
@@ -25,11 +26,13 @@ header {
 header .home-logo {
     padding: 1.5rem;
 }
+
 header nav {
     padding: 1.5rem;
     justify-content: space-between;
 }
-header nav a{
+
+header nav a {
     padding-left: 10px;
     color: aliceblue;
 }
@@ -142,6 +145,7 @@ section {
     z-index: 1;
     background-color: white;
     /* box-shadow: 0 0 4px 0 gray; */
+    padding: 2%;
 }
 
 #highlights h1 {
@@ -163,7 +167,7 @@ section {
 }
 
 .l {
-    font-weight: 400 ;
+    font-weight: 400;
 }
 
 .cv {
@@ -188,6 +192,9 @@ section {
     z-index: 1;
 }
 
+#footer i {
+    font-size: 1.5rem;
+}
 
 .foot-link {
     padding: 1rem;
@@ -227,9 +234,24 @@ i {
     }
 }
 
-@media (max-width: 767px) {
-    header {
-        background-color: black;
+@media (max-width: 1028px) {
+    body {
+        background-repeat: no-repeat;
     }
+    #about {
+        margin: 5rem;
+    }
+
+    #title h1 {
+        font-size: 4rem;
+    }
+
+    .profile-pic {
+        margin-top: 1rem;
+    }
+
+    #footer {
+        width: 35%;
+    }
+
 }
-    
