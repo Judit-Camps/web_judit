@@ -226,3 +226,10 @@ i {
         transition: none;
     }
 }
+
+@media (max-width: 767px) {
+    header {
+        background-color: black;
+    }
+}
+    
