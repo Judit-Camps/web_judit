@@ -150,6 +150,7 @@ section {
 
 .timeline-item {
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .sub {
@@ -228,7 +229,7 @@ i {
 @media (max-width: 1028px) {
     body {
         background-repeat: no-repeat;
-        background-size: 250%;
+        background-size: cover;
         background-attachment: fixed;
     }
 
@@ -237,7 +238,7 @@ i {
     }
 
     header {
-        height: 60px;
+        height: 80px;
     }
 
     header i {
@@ -265,7 +266,10 @@ i {
     }
 
     #about {
-        margin: 5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin: 2.5rem;
     }
 
     #title h1 {
@@ -283,6 +287,9 @@ i {
 
     #footer p {
         font-size: 24px;
+    }
+    .copyright {
+        font-size: medium;
     }
 
 }
